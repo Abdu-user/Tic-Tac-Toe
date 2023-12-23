@@ -1,0 +1,118 @@
+.tic-tac-toe-div {
+  background-color: rgb(133, 55, 55);
+  height: 1000px;
+  color: white;
+  display: grid;
+  grid-template-rows: 70px 400px 300px;
+  align-items: start;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-div h1 {
+  margin-bottom: 0;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+.the-game-tic-tac-toe-div {
+  position: relative;
+  background-color: grey;
+
+  height: 400px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 10px;
+  grid-template-rows: 100px 100px 100px;
+  justify-content: center;
+}
+.css-tic-tac-toe-button,
+.play-with-bot {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 80px;
+}
+.reset-position-absolute-div,
+.auto-play-button,
+.computer-move-button,
+.check-score-button,
+.add-to-history-button {
+  position: absolute;
+  background-color: black;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  right: 80%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  color: white;
+}
+.computer-move-button {
+  position: absolute;
+  top: 60px;
+  color: white;
+}
+.auto-play-button {
+  top: 120px;
+}
+
+.check-score-button {
+  top: 180px;
+}
+.add-to-history-button {
+  top: 240px;
+}
+
+.css-green-score-div {
+  background-color: green;
+  height: 1000px;
+}
+.css-result-button {
+  font-weight: bold;
+  color: blue;
+  font-size: 80px;
+  opacity: 0.8;
+  position: absolute;
+  background-color: greenyellow;
+  right: 40%;
+  left: 33%;
+  top: 70px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  height: 200px;
+  width: 200px;
+}
+.css-result-button-display-none {
+  display: none;
+}
+.js-result-div {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.8;
+}
+.css-result-div-display-none {
+  display: none;
+}
+.css-score-absolute-div {
+  position: absolute;
+  top: 340px;
+
+  left: 200px;
+  padding: 10px 0px;
+  width: 200px;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(90deg, blue, red, orange);
+}
