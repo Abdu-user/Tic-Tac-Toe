@@ -495,46 +495,6 @@ function checkScoreFunction() {
       return "full";
     }
   }
-
-  // let i = 0;
-  // let index = -1;
-  // while (i < 3) {
-  //   const value = ticTacToeButton;
-  //   console.log(index);
-  //   if (
-  //     value[(index = index + 1)].innerHTML === "X" &&
-  //     value[(index = index + 1)].innerHTML === "X" &&
-  //     value[(index = index + 1)].innerHTML === "X"
-  //   ) {
-  //     console.log("You win O");
-  //   } else {
-  //     console.log("you lose");
-  //   }
-  //   // index = index + 3;
-  //   i++;
-  // }
-
-  // for (let i = 0; i < ticTacToeButton.length; i++) {
-  //   const value = ticTacToeButton[i];
-  //   if (
-  //     value.innerHTML === "X" &&
-  //     value.innerHTML === "X" &&
-  //     value.innerHTML === "X"
-  //   ) {
-  //     console.log("You win");
-  //   } else {
-  //     console.log("Tie");
-  //   }
-  // }
-
-  // let XOWord;
-  // ticTacToeButton.forEach((value, index) => {
-  //   if (value.innerHTML === "X" && index < 2) {
-  //     console.log(index);
-  //   } else {
-  //     console.log("worksOpposite way");
-  //   }
-  // });
 }
 jsResultButton.addEventListener("click", () => {
   uptScoreFunction();
